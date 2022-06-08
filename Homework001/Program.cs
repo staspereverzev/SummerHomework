@@ -57,3 +57,20 @@ else
     Console.WriteLine("Nechetnoe");
 }
 */
+
+int N, current;
+
+Console.Write("Input integer number: ");
+N = Convert.ToInt32(Console.ReadLine());
+
+current = 2;
+
+if (N<0)
+{
+    N=N*(-1);
+}
+while (current <= N)
+{
+    Console.Write (current+" ");
+    current = current+2;
+}
