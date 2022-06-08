@@ -41,3 +41,19 @@ if (num3 > max )
 }
 Console.WriteLine("Max = "+(max)); 
 */
+
+/*
+int num;
+
+Console.Write("Input integer number: ");
+num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    Console.WriteLine("Chetnoe");
+}
+else
+{
+    Console.WriteLine("Nechetnoe");
+}
+*/
