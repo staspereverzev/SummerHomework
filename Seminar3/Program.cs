@@ -37,7 +37,9 @@ N = Convert.ToInt32(Console.ReadLine());
 QuadN(N);
 */
 
+/*
 double FindLenght(double xA, double yA, double Xb, double yB)
 {
     return Math.Sqrt((xB - xA)*(xB - xA) + Math.Pow((yB-yA),2));
 }
+*/
