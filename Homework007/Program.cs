@@ -109,14 +109,16 @@ double sum = 0;
 
 Console.WriteLine();
 
-for (int j = 0; j <b; j++)
+void Avarage(int[,] array)
+{
+for (int j = 0; j <array.GetLength(1); j++)
 {
     sum = 0;
-    for (int i = 0; i < a; i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         sum = array[i,j] + sum; 
     }
     Console.Write(sum/a + " ");
 }
-
-
+}
+Avarage(array);
