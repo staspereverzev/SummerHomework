@@ -21,6 +21,7 @@ Console.WriteLine(SumRec (N, M));
 
 //Вторая задача
 
+/*
 int count = 1;
 int NumbersRec (int N)
 {
@@ -35,5 +36,15 @@ int NumbersRec (int N)
 
 return count;
 }
+
+Console.WriteLine(NumbersRec (N));
+*/
+int NumbersRec (int N)
+   {
+    if (N>=0 && N<=10)
+        return 1;
+    else
+        return 1+NumbersRec(N/10);
+   }
 
 Console.WriteLine(NumbersRec (N));
